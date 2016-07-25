@@ -1,0 +1,909 @@
+/*=================================
+||			Index 
+==================================*/
+/*
+|	1. Imports [30]
+|	2. Global [37]
+|	3. Colors [92]
+|
+|	=============
+|	SECTIONS
+|	=============
+|	4. Header [112]
+|	5. Our Service [222]
+|	6. About Us [332]
+|	7. Our Works [358]
+|	8. Meet With Us [441]
+|	9. Testimonial [506]
+|	10. Contact With Us [560]
+|	11. Media Query [711]
+|
+|
+|
+|
+|
+*/
+
+
+
+/*=================================
+||			1. Imports 
+==================================*/
+@import url(http://fonts.useso.com/css?family=Raleway:400,700,300);
+@import url(http://fonts.useso.com/css?family=Roboto:300,700);
+
+
+/*=================================
+||			2. Global 
+==================================*/
+body
+{
+	font-family: 'Raleway', 'helvetica', sans-serif;
+	overflow-x: hidden;
+}
+.wrapper
+{
+	padding: 50px 0px 30px;
+}
+.section-title
+{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 300;
+	letter-spacing: 8px;
+	font-family: Roboto, 'helvetica', sans-serif;
+}
+.section-paragraph{
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+  	line-height: 26px;
+}
+::selection {
+  background: #e64e4e;
+  color: #fff;
+}
+a:hover
+{
+	color: #e64e4e;
+}
+.custom-icon
+{
+	border: 2px solid #fff;
+	padding: 10px;
+	color: #fff;
+	border-radius: 100%;
+	margin: 0px 8px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+.custom-icon:hover{
+	background: #221e2d;
+	border: 2px solid transparent;
+}
+/*.hide
+{
+	opacity: 0;
+}
+.show
+{
+	opacity: 1;
+}*/
+.hide, .show
+{
+	transition: all 0.6s;
+}
+/*=================================
+||			3. Colors 
+==================================*/
+.custom-purple
+{
+	color: #907fbf;
+}
+.custom-white
+{
+	color: #fff;
+}
+.custom-red
+{
+	color: #e64e4e;
+}
+.custom-black
+{
+	color: #221e2d;
+}
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/*=================================
+||			4. Header 
+==================================*/
+a.logo
+{
+	font-size: 25px;
+	letter-spacing: 8px;
+	display: inline-block;
+	color: #fff;
+}
+a.logo:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+.star
+{
+	color: #e64d69;
+}
+.header-description
+{
+	background: url(../images/header_bg.jpg) no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: table;
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header-content
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.header-description::before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	height: 100%;
+	left: 0;
+	width: 100%;
+	background: url(../images/pettern.png) repeat;
+}
+.heading
+{
+	font-weight: bold;
+	padding: 15px 30px;
+	letter-spacing: 15px;
+	border: 2px solid #FFF;
+	display: inline-block;
+	font-size: 45px;
+}
+.heading-subtitle
+{
+	font-weight: 100;
+	letter-spacing: 12px;
+	font-size: 30px;
+}
+.button-down
+{
+	bottom: 11%;
+	position: absolute;
+	left: 48%;
+}
+
+/*=================================
+||			Navigation 
+==================================*/
+.navigationbar
+{
+	font-weight: 400;
+	padding: 25px 0px;
+	background: #221e2d;
+	color: #ddd;
+	text-transform: uppercase;
+	min-height: 92px;
+}
+#iconhideshow
+{
+	font-size: 25px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+.nav li.active a,.nav li.active a:hover
+{
+	background: transparent;
+}
+.nav li
+{
+	color: #e64e4e;
+  	border: 1px solid transparent;
+}
+.nav li:hover
+{
+	border: 1px solid #e64e4e;
+}
+.nav-pills>li>a
+{
+  	border-radius: 0px;
+  	color: #907fbf;
+}
+.nav-pills>li>a:hover{
+	color: #e64e4e;
+	background: transparent;
+}
+.modified
+{
+	padding: 10px 0px;
+	transition: .5s;
+	min-height: 62px;
+}
+/*=================================
+||			5. Our Service 
+==================================*/
+.service
+{
+	background: url(../images/service_bg.jpg) no-repeat;
+	background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    /*height: 100vh;*/
+}
+.service .wrapper
+{
+	padding: 30px 0px 0px;
+}
+.service-content
+{
+	background: rgba(40, 36, 50, 0.9);
+}
+.subtitle
+{
+	padding: 60px 20px 0px;
+	font-size: 25px;
+	font-family: 'Roboto';
+	font-weight: 400;	
+}
+.service-main-content
+{
+	padding: 20px 20px 0px;
+	font-size: 16px;
+}
+.service-main-content:nth-child(2)
+{
+	padding-bottom: 80px;
+}
+#service .wrapper .service-content .container .service-table
+{
+	display: table;
+}
+#service .wrapper .service-content .container .service-table .service-table-cell
+{
+	display: table-cell;
+	padding: 0;
+}
+.add
+{
+	color: rgb(48, 43, 56);
+	position: absolute;
+	background: linear-gradient(to bottom, #e64e4e , #e64e6b);
+	padding: 30px 35px;
+	top: -136px;
+	left: 50%;
+	margin-left: -87.125px;
+}
+.add i
+{
+	font-size: 40px;
+	padding: 0px 20px 20px;
+}
+.add:hover i
+{
+	color: #fff;
+	transform: rotateY(360deg);
+	transition: all .6s;
+}
+.add:hover
+{
+	color: #fff;
+	transition: all .8s;
+}
+
+.demo
+{
+	margin: 80px auto 20px;
+	width: 100px;
+}
+.cir
+{
+	background-color: rgb(48, 43, 56) !important;
+}
+.ab
+{
+	background-color: transparent !important;
+}
+.perc
+{
+	color: #e64e4e !important;
+}
+.border-1
+{
+	border-right: 1px solid #4a4162;
+}
+.border-2
+{
+	border-right: 1px solid #4a4162;
+	border-left: 1px solid #4a4162;
+}
+.border-3
+{
+	border-bottom: 1px solid #4a4162;
+}
+.border-4
+{
+	border-top: 1px solid #4a4162;
+}
+.empty
+{
+	height: 100px;
+}
+
+/*=================================
+||			6. About Us 
+==================================*/
+#about .container-fluid .about-table
+{
+	display: table;
+	width: 100%; 
+}
+#about .container-fluid .about-table .about-table-cell
+{
+	display: table-cell;
+	padding: 0;
+	float: none;
+}
+
+#about .container-fluid .about-table .about-table-cell img
+{
+	max-width: 200%;
+	width: 100%;
+}
+.about-content {
+  /*padding-left: 94px;*/
+  padding-left: 22%;
+  padding-right: 20px;
+}
+
+/*=================================
+||			7. Our Works
+==================================*/
+.works
+{
+	background: #221e2d;
+}
+.works-item
+{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+.works-single-item
+{
+	position: relative;
+	width: 33.3333%;
+}
+.works-single-item-hover
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(230, 78, 80, 0.35);
+	/*background: rgba(0, 0, 0, 0.6);*/
+	opacity: 0;
+	top: 0;
+	left: 0;
+}
+.works-single-item:hover
+{
+	transition: all 1.0s;
+	/*transform: rotateX(360deg);*/
+}
+.works-single-item:hover .works-single-item-hover
+{
+	opacity: 1;
+	transition: all 0.6s;
+	/*transform: rotateY(360deg);*/
+}
+.works-icons
+{
+	position: absolute;
+	top: 35%;
+	width: 100%;
+}
+.works-icons-content
+{
+	/*background: rgba(230, 78, 80, 0.6);*/
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	font-size: 16px;
+}
+button.filters-button:first-child
+{
+	margin-left: 25px;
+}
+button.filters-button
+{
+	text-transform: capitalize;
+	background: transparent;
+	color: #907fbf;
+	border: 1px solid #221e2d;
+	outline: none;
+	margin: 25px 0px 50px;
+	padding: 5px 20px;
+	font-size: 16px;
+	font-family: 'Roboto', 'helvetica', sans-serif;
+}
+button.active, button.filters-button:hover, button.filters-button:active, button.filters-button:focus
+{
+	color: #e64e4e;
+	border: 1px solid #e64e4e;
+}
+.works .wrapper
+{
+	padding-bottom: 0px;
+}
+.nivo-lightbox-theme-default.nivo-lightbox-overlay {
+    background-color: rgba(230, 77, 105, 0.85);
+}
+
+/*=================================
+||			8. Meet With Us
+==================================*/
+.meet-item-bg
+{
+	background: #221e2d;
+	width: 100%;
+	margin: 25px 0px 40px;
+}
+.meet-item
+{
+	width: 70%;
+	margin: 0px auto;
+}
+.meet-single-item
+{
+	position: relative;
+}
+.meet-icons
+{
+	position: absolute;
+	bottom: 12%;
+	opacity: 0;
+	width: 100%;
+}
+.meet-icons .custom-icon{
+	margin: 0px 3px;
+	border: 1px solid #fff;
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
+	padding: 8px;
+}
+.meet-item:hover .meet-icons
+{
+	opacity: 1;
+	transition: all .8s;
+}
+.meet-item img
+{
+	width: 100%;
+	margin-top: -25px;
+}
+.meet-item-content
+{
+	background: #e64d69;
+	padding: 30px;
+}
+.meet-item-name
+{
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0px;
+ 	margin: 0px;
+}
+.meet-item-sub
+{
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.meet-item-about
+{
+	font-size: 13px;
+}
+/*=================================
+||			9. Testimonial
+==================================*/
+.testimonial
+{
+	background: linear-gradient(to right, #ce4762, #3a2434);
+}
+.testimonial-content
+{
+	padding: 50px 30px;
+	border: 1px solid rgba(213, 213, 213, 0.15);
+}
+.img-logo
+{
+	background: #fff;
+	display: inline-block;
+	margin: 4px 3px;
+	opacity: .7;
+}
+.img-logo:hover
+{
+	opacity: 1;
+}
+.owl-theme .owl-controls
+{
+	text-align: left;
+	margin-top: -15px;
+  	padding-left: 30px;
+}
+.owl-theme .owl-controls .owl-page span
+{
+	background: #fff;
+	border: 1px solid #fff;
+}
+.owl-theme .owl-controls .active span
+{
+	background: none;
+}
+.test-name
+{
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+.name-title
+{
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+/*=================================
+||			10. Contact With Us
+==================================*/
+.contact
+{
+	background: url(../images/footer_bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.contact-content
+{
+
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.address
+{
+	line-height: 26px;
+}
+.address a
+{
+	color: #221e2d;
+}
+ul.social-icons
+{
+	padding: 0;
+	margin-top: 30px;
+	float: left;
+}
+ul.social-icons li
+{
+    display:inline-block;
+    margin:5px;
+    font-size:35px;
+}
+ul.social-icons i
+{
+    color: rgb(230, 77, 105);
+    display:block;
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    border: 1px solid rgba(230, 77, 105, .5);
+}
+ul.social-icons i:hover
+{
+    border: 1px solid transparent;
+}
+ul.social-icons li a
+{
+    display:block;
+    text-decoration: none;
+}
+.footer-logo h1
+{
+    color: white;
+}
+.social-icons ul li a 
+{
+	color: white;
+	border-color: white;
+}
+.facebook a:hover i
+{
+	transition: all .4s;
+    color:#fff;
+    background-color:#3B5998;
+}
+.twitter a:hover i
+{
+	transition: all .4s;
+    color:#fff;
+    background-color: #2A80BA;
+}
+.linkedin a:hover i
+{
+	transition: all .4s;
+    color:#fff;
+    background-color:#007bb6;
+}
+.googleplus a:hover i
+{
+	transition: all .4s;
+    color:#fff;
+    background-color:#dd4b39;
+}
+.github a:hover i
+{
+	transition: all .4s;
+    color:#fff;
+    background-color: #444;
+}
+.custom-form-control
+{
+	border-radius: 0px;
+	padding: 20px 15px;
+}
+.custom-form-group
+{
+	padding: 0px 8px;
+}
+.submit-button
+{
+	margin-right: 8px;
+	border-radius: 0px;
+	padding: 12px 20px;
+	background: #e64d69;
+	border: 1px solid #e64d69;
+}
+.submit-button:hover
+{
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+	transition: all .6s;
+}
+.form-control:focus
+
+{
+  border-color: #e64e4e;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(230, 78, 78,.6);
+}
+.required {
+    color:#e9266d;
+}
+#success, #error {
+    display:none;
+}
+#success span, #erro span {
+    display:block;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+#success span p, #error span p {
+    margin-top:6em;
+}
+#success span p {
+  color:#9bd32d;
+}
+#error span p {
+  color:#c0392b;
+}
+.top{
+    display: none;
+    background: #e64d69;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 22px;
+    position: fixed;
+    bottom: 45px;
+    right: 35px;
+}
+.show-top{
+    display: block;
+    z-index: 99;
+    transition: all .8s;
+}
+.top:hover{
+    background: rgb(58, 36, 52);
+    color: #fff;
+}
+footer
+{
+	padding: 20px 0px;
+}
+footer a
+{
+	color: #e64e4e;
+}
+/*=================================
+||			Scrollbar
+==================================
+
+
+/*=================================
+||			11. Media Query
+==================================*/
+
+
+@media (min-width: 1366px){
+	.heading
+	{
+		font-size: 62px;
+		padding: 18px;
+	}
+	.heading-subtitle
+	{
+		font-size: 42px;
+	}
+}
+@media (max-width: 960px){
+	.border-1
+	{
+		border-right: 1px solid transparent;
+	}
+	.empty
+	{
+		height: 50px;
+	}
+	.add{
+		padding: 20px;
+	}
+	.demo {
+	  	margin: 20px auto;
+	}
+	.about-content
+	{
+ 		padding: 0 12%;
+	}
+	.owl-theme .owl-controls
+	{
+		text-align: center;
+		margin-top: 0px;
+	  	padding-left: 0px;
+	}
+	#testimonial
+	{
+		text-align: center;
+	}
+	.works-single-item-hover
+	{
+		_display: none;
+	}
+}
+@media (max-width: 600px){
+	.heading
+	{
+		padding: 10px;
+	}
+	#about .container-fluid .about-table .about-table-cell
+	{
+		display: block;
+	}
+	.works-single-item
+	{
+		width: 100%;
+	}
+	.add
+	{
+		position: static;
+		display: inline-block;
+  		margin-top: 40px;
+  		margin-left: auto;
+  		padding: 30px 35px;
+	}
+	button.filters-button:first-child {
+	  margin-left: 0px;
+	}
+	button.filters-button
+	{
+		margin-bottom: 20px;
+  		padding: 5px 10px;
+	}
+	.contact
+	{
+		background: none;
+	}
+}
+@media (max-width: 480px){
+	.heading
+	{
+		font-size: 24px;
+		padding: 8px;
+		letter-spacing: 5px;
+	
+		margin: 0px 15px 15px;
+		line-height: 28px;
+}
+	.heading-subtitle
+	{
+		font-size: 12px;
+		letter-spacing: 10px;
+	}
+	.logo {
+		font-size: 15px !important;
+		letter-spacing: 4px !important;
+	}
+
+.navigationbar {
+    min-height: initial;
+    padding: 15px;
+}
+	.nav>li>a
+	{
+		padding: 7px;
+	}
+	#iconhideshow
+	{
+		margin-top: 0px;
+	
+		position: relative;
+		z-index: 10;
+}
+	ul.nav
+	{
+		list-style-type: none;
+	}
+	ul.nav li
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	button.filters-button{ margin: 0 10px 0 0;}
+	ul.social-icons i{
+    width: 40px;
+		
+	
+    height: 40px;
+    font-size: 20px;
+}
+
+ul.social-icons {
+    margin-bottom: 30px;
+}
+
+.top{
+	right: 10px;
+	bottom: 10px;
+}
+.clients-logo > a {
+    width: 45%;
+    display: block;
+    float: left;
+    margin-right: 11px;
+}
+}
+
+@media (max-width: 320px){
+	
+}
+
