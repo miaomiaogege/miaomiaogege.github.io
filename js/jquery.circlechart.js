@@ -51,7 +51,7 @@
 			
 			var that = this,
 					template = '<div><div class="ab"><div class="cir"><span class="perc">{{percentage}}</span></div></div></div>',					
-					options =  $.extend(defaults, options)					
+					options =  $.extend(defaults, options);
 
 			function init(){
 				that.each(function(){
