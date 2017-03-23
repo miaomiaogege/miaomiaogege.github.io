@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5 {
 .logo-top-margin {
   position: relative;
   margin-top: 120px;
-  margin-left: 45%;
+  margin-left: 42%;
 }
 @media screen and (max-width: 992px) {
   .logo-top-margin {
@@ -644,4 +644,4 @@ h1, h2, h3, h4, h5 {
 }
 
 
-/* Custom */
+/* windows loding*/
