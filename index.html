@@ -29,7 +29,7 @@
     canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
 
-    var texts = 'L0123456789R'.split('');
+    var texts = '0123456789'.split('');
 
     var fontSize = 36;
     var columns = canvas.width/fontSize;
@@ -49,7 +49,7 @@
         ctx.font = fontSize + 'px arial';
         //逐行输出文字
         for(var i = 0; i < drops.length; i++){
-            var text = texts[Math.floor(Math.random()*texts.length)];
+            var text = texts[Math.floor(Math.random()*texts.length)+'LR'];
             ctx.fillText(text, i*fontSize, drops[i]*fontSize);
 
             if(drops[i]*fontSize > canvas.height || Math.random() > 0.95){
