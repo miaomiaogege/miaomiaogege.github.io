@@ -6,316 +6,61 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>resume</title>
+        <title>fxxk</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-       <link rel="stylesheet" href="css/windowsloding.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="js/vue.min.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/black.js" ></script>
+        <style>
+            body{margin: 0; padding: 0; overflow: hidden;}
+        </style>
     </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">你用的浏览器 <strong>版本太低了</strong> Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <div class="site-bg"></div>
-        <div class="site-bg-overlay"></div>
+<body>
+<canvas id="canvas"></canvas>
+<script>
 
-        <!-- TOP HEADER -->
-        <div class="top-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <p class="phone-info fa fa-reddit-square"><a href="resume.pdf">简历下载</a></p>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="social-icons">
-                            <ul>
-                                <li><a href="#" class="fa fa-qq"></a></li>
-                                <li><a href="#" class="fa fa-weixin"></a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- .top-header -->
+    /**
+     * Created by jyhjh on 2017/7/7.
+     */
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
 
 
-        <div class="visible-xs visible-sm responsive-menu">
-            <a href="#" class="toggle-menu">
-                <i class="fa fa-bars"></i> Show Menu
-            </a>
-            <div class="show-menu">
-                <ul class="main-menu">
-                    <li>
-                        <a class="show-1 active homebutton" href="#"><i class="fa fa-home"></i>Home</a>
-                    </li>
-                    <li>
-                        <a class="show-2 aboutbutton" href="#"><i class="fa fa-user"></i>About me</a>
-                    </li>
-                    <li>
-                        <a class="show-3 projectbutton" href="#"><i class="fa fa-camera"></i>Gallery</a>
-                    </li>
-                    <li>
-                        <a class="show-5 contactbutton" href="#"><i class="fa fa-envelope"></i>vision</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
 
-        <div class="container" id="page-content">
-            <div class="row">
+    var texts = '0123456789'.split('');
 
+    var fontSize = 36;
+    var columns = canvas.width/fontSize;
+    // 用于计算输出文字时坐标，所以长度即为列数
+    var drops = [];
+    //初始值
+    for(var x = 0; x < columns; x++){
+        drops[x] = 1;
+    }
 
-                
-                <div class="col-md-9 col-sm-12 content-holder">
-                    <!-- CONTENT -->
-                    <div id="menu-container">
-                        
-                        <div class="logo-holder logo-top-margin">
-                            <a href="#" class="site-brand"><img src="images/logo.png" alt="" width="150" height="150" class="img-circle"></a>
-                        </div>
-                        
-                        
-                        <div id="menu-1" class="homepage home-section text-center">
-                            <div class="welcome-text text-center">
-                                <h2>为了世界的和平</h2>
-                                <p> <span class="orange">为了防止世界被破坏，坚持爱和真实的罪恶</span></p>
+    function draw(){
+        //让背景逐渐由透明到不透明
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        //文字颜色
+        ctx.fillStyle = '#0F0';
+        ctx.font = fontSize + 'px arial';
+        //逐行输出文字
+        for(var i = 0; i < drops.length; i++){
+            var text = texts[Math.floor(Math.random()*texts.length)];
+            ctx.fillText(text, i*fontSize, drops[i]*fontSize);
 
-                            </div>
-                        </div>
+            if(drops[i]*fontSize > canvas.height || Math.random() > 0.95){
+                drops[i] = 0;
+            }
 
-                        <div id="menu-2" class="content about-section">
-                            <div class="row">
-                                <div class="col-md-8 col-sm-8">
-                                    <div class="box-content profile">
-                                        <h3 class="widget-title">关于自己</h3>
-                                        <div class="profile-thumb">
-                                            <img src="images/8.jpg" alt="">
-                                        </div>
-                                        <div class="profile-content">
-                                            <h5 class="profile-name">求职宣言</h5>
-                                            <span class="profile-role">为什么找工作，这是个问题</span>
-                                            <p style="text-indent:2em;">开心的是，我是为了可以吃火锅，可以吃烧烤，最重要的是肚子痛的时候可以去打针，不开心的是，在我们这个国家即使我财政自由了，我吃的烧烤，火锅，都会致癌。所以我更改了我的志向，是为了自己以及后代的健康，我希望技术可以改变人心，希望世界重新关注人性，希望资本不再放肆，我知道这听着就跟创业的那些人喊着我要做世界第一，宇宙第一一样可笑，可我还是希望将来回忆中有人能理解我抗争过什么，我做过些什么</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4">
-                                    <div class="box-content">
-                                        <h3 class="widget-title">价值观</h3>
-                                        <p style="text-indent:2em;">这个题目很大，我心里的很小，放到求职这里来讲，我是一个被选择对象，天然的弱势群体，可我还是想强调一下我理想的求职公司，公司会尊重你的努力，爱护你的健康，对于劳动力有更深刻的思考，对于财富有自己的理解，其次，脱离了低级趣味的压榨劳动力，血汗制度，攫取资本原罪的财富。</p>
-                                        <div class="about-social">
-                                            <ul>
-                                                <li><a href="#" class="fa fa-qq"></a></li>
+            drops[i]++;
+        }
+    }
 
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-5 col-sm-5">
-                                    <div class="box-content">
-                                        <h3 class="widget-title">当你老了</h3>
-                                        <div class="project-item">
-                                            <img src="images/7.jpg" alt="">
-                                            <div class="project-hover">
-                                                <h4>简单写程序，写到老</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 col-sm-7">
-                                    <div class="box-content">
-                                        <h3 class="widget-title">Our Technical Skills</h3>
-                                        <ul class="progess-bars">
-                                            <li>
-                                                <span>HTML CSS 80%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <span>Vue 50%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <span>react 50%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <span>angular 50%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="menu-3" class="content gallery-section">
-                            <div class="box-content">
-                                <h3 class="widget-title">项目依赖</h3>
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="project-item">
-                                            <a href="http://www.ruanyifeng.com/blog/"><img src="images/1.jpg" alt=""></a>
-                                            <div class="project-hover">
-                                                <h4>阮一峰的网络日志</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="project-item">
-                                            <a href="http://www.w3cplus.com/"><img src="images/2.jpg" alt=""></a>
-                                            <div class="project-hover">
-                                                <h4>大漠</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="project-item">
-                                            <a href="https://github.com/miaomiaogege/Front-end-Interview-questions"><img src="images/3.jpg" alt=""></a>
-                                            <div class="project-hover">
-                                                <h4>面试题汇总</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="project-item">
-                                            <a href="https://github.com/miaomiaogege/node123">  <img src="images/4.jpg" alt=""></a>
-                                            <div class="project-hover">
-                                                <h4>node123</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="project-item">
-                                            <a href="https://github.com/nbubna/HTML"> <img src="images/5.jpg" alt=""> </a>
-                                            <div class="project-hover">
-                                                <h4>html</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="project-item">
-                                            <a href="https://github.com/miaomiaogege/impress.js"><img src="images/6.jpg" alt=""></a>
-                                            <div class="project-hover">
-                                                <h4>impress</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="project-pages">
-                                    <ul>
-                                        <li><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">.</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="menu-4" class="content contact-section">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="box-content">
-                                        <h3 class="widget-title"></h3>
-
-            <div id="com">
-                <cc></cc>
-            </div>
-
-
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col-md-3 hidden-sm">
-                    
-                    <nav id="nav" class="main-navigation hidden-xs hidden-sm">
-                        <ul class="main-menu">
-                            <li>
-                                <a class="show-1 active homebutton" href="#"><i class="fa fa-home"></i>Home</a>
-                            </li>
-                            <li>
-                                <a class="show-2 aboutbutton" href="#"><i class="fa fa-user"></i>About me</a>
-                            </li>
-                            <li>
-                                <a class="show-3 projectbutton" href="#"><i class="fa fa-camera"></i>Gallery</a>
-                            </li>
-                            <li>
-                                <a class="show-5 contactbutton" href="#"><i class="fa fa-envelope"></i>vision</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- SITE-FOOTER -->
-        <div class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                      为人生祈福，愿你我找到存在的意义
-                    </div>
-                </div>
-            </div>
-        </div> <!-- .site-footer -->
-
-
-        <script>
-
-      var cc = {
-          template:
-'<div class="window">'+
-'<div class="logo">'+
-'<p class="top">Microsoft</p>'+
-'<p class="mid">Windows<span>XP</span></p>'+
-'<p class="bottom">Professional</p>'+
-'</div>'+
-'<div class="caonima">'+
-'<div class="box"></div>'+
-'<div class="box"></div>'+
-'<div class="box"></div>'+
-'</div>'+
-'</div> '}
-
-
-            new Vue({
-                el: '#com',
-                components: {
-                    // <cc> 将只在父模板可用
-                    'cc': cc
-                }
-            })
-
-        </script>
-
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-		<!-- templatemo 439 rectangle -->
-    </body>
+    setInterval(draw, 33);
+</script>
+</body>
 </html>
