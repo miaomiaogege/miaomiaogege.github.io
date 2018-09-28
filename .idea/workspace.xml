@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="262ec3b0-ccf3-4411-af14-a4635b5252ec" name="Default" comment="123123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vuetable.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/vuetable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/fontello.9354499.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fontello.9354499.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vendor.dll.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor.dll.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,6 +20,7 @@
     <session id="-1250767832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -94,8 +96,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="396" />
+    <option name="y" value="38" />
     <option name="width" value="1444" />
     <option name="height" value="904" />
   </component>
@@ -113,6 +115,11 @@
               <item name="miaomiaogege.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="miaomiaogege.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="miaomiaogege.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miaomiaogege.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -123,7 +130,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537856134710" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537859571036" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -203,7 +210,7 @@
       <workItem from="1499408512970" duration="6556000" />
       <workItem from="1499420889636" duration="1391000" />
       <workItem from="1537182271027" duration="811000" />
-      <workItem from="1537839683655" duration="1634000" />
+      <workItem from="1537839683655" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="123123">
       <created>1537839835829</created>
@@ -219,11 +226,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537843250228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="123123">
+      <created>1537856284487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537856284487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10392000" />
+    <option name="totallyTimeSpent" value="11044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
