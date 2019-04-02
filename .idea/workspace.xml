@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="262ec3b0-ccf3-4411-af14-a4635b5252ec" name="Default" comment="123123" />
+    <list default="true" id="262ec3b0-ccf3-4411-af14-a4635b5252ec" name="Default" comment="123123">
+      <change afterPath="$PROJECT_DIR$/.idea/geren.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/scaffolds/draft.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/scaffolds/page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/scaffolds/post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/source/_posts/My-New-Post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/source/_posts/hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/de.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/default.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/es.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/fr.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/ja.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/ko.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/nl.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/no.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/pt.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/ru.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/zh-CN.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/languages/zh-TW.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/after-footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/archive-post.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/article.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/gauges-analytics.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/google-analytics.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/head.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/header.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/mobile-nav.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/post/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/post/date.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/post/gallery.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/post/nav.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/post/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/post/title.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_partial/sidebar.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_widget/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_widget/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_widget/recent_posts.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_widget/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/_widget/tagcloud.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/category.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/layout.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/page.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/post.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/layout/tag.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/scripts/fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_extend.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/archive.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/article.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/comment.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/footer.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/header.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/highlight.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/mobile.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/sidebar-aside.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/sidebar-bottom.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_partial/sidebar.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_util/grid.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_util/mixin.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/_variables.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/css/style.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/fancybox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/fancybox_loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/fancybox_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/fancybox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/fancybox_sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/helpers/fancybox_buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/jquery.fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/fancybox/jquery.fancybox.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/themes/landscape/source/js/script.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,28 +149,65 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-654052181">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="CNAME" value="10" />
+          <entry key="html" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="6" />
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNAME">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret column="481" selection-start-column="481" selection-end-column="481" />
+            <state>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vuetable.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="133">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -82,6 +220,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -91,11 +230,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/static/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="396" />
@@ -113,8 +247,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="miaomiaogege.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miaomiaogege.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="geren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geren" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,6 +258,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -209,6 +344,7 @@
       <workItem from="1537182271027" duration="811000" />
       <workItem from="1537839683655" duration="2286000" />
       <workItem from="1538103640398" duration="279000" />
+      <workItem from="1554181443628" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="123123">
       <created>1537839835829</created>
@@ -249,13 +385,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11323000" />
+    <option name="totallyTimeSpent" value="11703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25158983" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -297,27 +433,19 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md" />
+    <entry file="file://$PROJECT_DIR$/index2.html" />
+    <entry file="file://$PROJECT_DIR$/vuetable.json" />
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vuetable.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret column="481" selection-start-column="481" selection-end-column="481" />
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
