@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="262ec3b0-ccf3-4411-af14-a4635b5252ec" name="Default" comment="123123">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
-    </list>
+    <list default="true" id="262ec3b0-ccf3-4411-af14-a4635b5252ec" name="Default" comment="123123" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -54,6 +51,7 @@
     <session id="-654052181">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -133,7 +131,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="396" />
     <option name="y" value="38" />
     <option name="width" value="1444" />
@@ -164,8 +162,8 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554181909615" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554183184781" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../h5.hunlipic.com" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -246,7 +244,7 @@
       <workItem from="1537182271027" duration="811000" />
       <workItem from="1537839683655" duration="2286000" />
       <workItem from="1538103640398" duration="279000" />
-      <workItem from="1554181443628" duration="676000" />
+      <workItem from="1554181443628" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="123123">
       <created>1537839835829</created>
@@ -287,11 +285,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11999000" />
+    <option name="totallyTimeSpent" value="12603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1096" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25158983" />
       <window_info id="Structure" order="1" weight="0.25" />
